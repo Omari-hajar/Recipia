@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCFCF452275613A50073C644 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFCF451275613A50073C644 /* AppDelegate.swift */; };
+		CCFCF454275613A50073C644 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFCF453275613A50073C644 /* SceneDelegate.swift */; };
+		CCFCF456275613A50073C644 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFCF455275613A50073C644 /* ViewController.swift */; };
+		CCFCF459275613A50073C644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCFCF457275613A50073C644 /* Main.storyboard */; };
+		CCFCF45B275613A70073C644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCFCF45A275613A70073C644 /* Assets.xcassets */; };
+		CCFCF45E275613A70073C644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCFCF45C275613A70073C644 /* LaunchScreen.storyboard */; };
+		CCFCF469275613A70073C644 /* RecipiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFCF468275613A70073C644 /* RecipiaTests.swift */; };
+		CCFCF473275613A70073C644 /* RecipiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFCF472275613A70073C644 /* RecipiaUITests.swift */; };
+		CCFCF475275613A70073C644 /* RecipiaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFCF474275613A70073C644 /* RecipiaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCFCF465275613A70073C644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCFCF446275613A50073C644 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCFCF44D275613A50073C644;
+			remoteInfo = Recipia;
+		};
+		CCFCF46F275613A70073C644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCFCF446275613A50073C644 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCFCF44D275613A50073C644;
+			remoteInfo = Recipia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCFCF44E275613A50073C644 /* Recipia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCFCF451275613A50073C644 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCFCF453275613A50073C644 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CCFCF455275613A50073C644 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCFCF458275613A50073C644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCFCF45A275613A70073C644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCFCF45D275613A70073C644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCFCF45F275613A70073C644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCFCF464275613A70073C644 /* RecipiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCFCF468275613A70073C644 /* RecipiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipiaTests.swift; sourceTree = "<group>"; };
+		CCFCF46E275613A70073C644 /* RecipiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCFCF472275613A70073C644 /* RecipiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipiaUITests.swift; sourceTree = "<group>"; };
+		CCFCF474275613A70073C644 /* RecipiaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipiaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCFCF44B275613A50073C644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFCF461275613A70073C644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFCF46B275613A70073C644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCFCF445275613A50073C644 = {
+			isa = PBXGroup;
+			children = (
+				CCFCF450275613A50073C644 /* Recipia */,
+				CCFCF467275613A70073C644 /* RecipiaTests */,
+				CCFCF471275613A70073C644 /* RecipiaUITests */,
+				CCFCF44F275613A50073C644 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCFCF44F275613A50073C644 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCFCF44E275613A50073C644 /* Recipia.app */,
+				CCFCF464275613A70073C644 /* RecipiaTests.xctest */,
+				CCFCF46E275613A70073C644 /* RecipiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCFCF450275613A50073C644 /* Recipia */ = {
+			isa = PBXGroup;
+			children = (
+				CCFCF451275613A50073C644 /* AppDelegate.swift */,
+				CCFCF453275613A50073C644 /* SceneDelegate.swift */,
+				CCFCF455275613A50073C644 /* ViewController.swift */,
+				CCFCF457275613A50073C644 /* Main.storyboard */,
+				CCFCF45A275613A70073C644 /* Assets.xcassets */,
+				CCFCF45C275613A70073C644 /* LaunchScreen.storyboard */,
+				CCFCF45F275613A70073C644 /* Info.plist */,
+			);
+			path = Recipia;
+			sourceTree = "<group>";
+		};
+		CCFCF467275613A70073C644 /* RecipiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCFCF468275613A70073C644 /* RecipiaTests.swift */,
+			);
+			path = RecipiaTests;
+			sourceTree = "<group>";
+		};
+		CCFCF471275613A70073C644 /* RecipiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCFCF472275613A70073C644 /* RecipiaUITests.swift */,
+				CCFCF474275613A70073C644 /* RecipiaUITestsLaunchTests.swift */,
+			);
+			path = RecipiaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCFCF44D275613A50073C644 /* Recipia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCFCF478275613A70073C644 /* Build configuration list for PBXNativeTarget "Recipia" */;
+			buildPhases = (
+				CCFCF44A275613A50073C644 /* Sources */,
+				CCFCF44B275613A50073C644 /* Frameworks */,
+				CCFCF44C275613A50073C644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recipia;
+			productName = Recipia;
+			productReference = CCFCF44E275613A50073C644 /* Recipia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCFCF463275613A70073C644 /* RecipiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCFCF47B275613A70073C644 /* Build configuration list for PBXNativeTarget "RecipiaTests" */;
+			buildPhases = (
+				CCFCF460275613A70073C644 /* Sources */,
+				CCFCF461275613A70073C644 /* Frameworks */,
+				CCFCF462275613A70073C644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCFCF466275613A70073C644 /* PBXTargetDependency */,
+			);
+			name = RecipiaTests;
+			productName = RecipiaTests;
+			productReference = CCFCF464275613A70073C644 /* RecipiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCFCF46D275613A70073C644 /* RecipiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCFCF47E275613A70073C644 /* Build configuration list for PBXNativeTarget "RecipiaUITests" */;
+			buildPhases = (
+				CCFCF46A275613A70073C644 /* Sources */,
+				CCFCF46B275613A70073C644 /* Frameworks */,
+				CCFCF46C275613A70073C644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCFCF470275613A70073C644 /* PBXTargetDependency */,
+			);
+			name = RecipiaUITests;
+			productName = RecipiaUITests;
+			productReference = CCFCF46E275613A70073C644 /* RecipiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCFCF446275613A50073C644 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					CCFCF44D275613A50073C644 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					CCFCF463275613A70073C644 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CCFCF44D275613A50073C644;
+					};
+					CCFCF46D275613A70073C644 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CCFCF44D275613A50073C644;
+					};
+				};
+			};
+			buildConfigurationList = CCFCF449275613A50073C644 /* Build configuration list for PBXProject "Recipia" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCFCF445275613A50073C644;
+			productRefGroup = CCFCF44F275613A50073C644 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCFCF44D275613A50073C644 /* Recipia */,
+				CCFCF463275613A70073C644 /* RecipiaTests */,
+				CCFCF46D275613A70073C644 /* RecipiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCFCF44C275613A50073C644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFCF45E275613A70073C644 /* LaunchScreen.storyboard in Resources */,
+				CCFCF45B275613A70073C644 /* Assets.xcassets in Resources */,
+				CCFCF459275613A50073C644 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFCF462275613A70073C644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFCF46C275613A70073C644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCFCF44A275613A50073C644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFCF456275613A50073C644 /* ViewController.swift in Sources */,
+				CCFCF452275613A50073C644 /* AppDelegate.swift in Sources */,
+				CCFCF454275613A50073C644 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFCF460275613A70073C644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFCF469275613A70073C644 /* RecipiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFCF46A275613A70073C644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFCF475275613A70073C644 /* RecipiaUITestsLaunchTests.swift in Sources */,
+				CCFCF473275613A70073C644 /* RecipiaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCFCF466275613A70073C644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCFCF44D275613A50073C644 /* Recipia */;
+			targetProxy = CCFCF465275613A70073C644 /* PBXContainerItemProxy */;
+		};
+		CCFCF470275613A70073C644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCFCF44D275613A50073C644 /* Recipia */;
+			targetProxy = CCFCF46F275613A70073C644 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCFCF457275613A50073C644 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCFCF458275613A50073C644 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCFCF45C275613A70073C644 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCFCF45D275613A70073C644 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCFCF476275613A70073C644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCFCF477275613A70073C644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCFCF479275613A70073C644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSX47LJT9G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Recipia/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wishStar.Recipia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCFCF47A275613A70073C644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSX47LJT9G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Recipia/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wishStar.Recipia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCFCF47C275613A70073C644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSX47LJT9G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wishStar.RecipiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recipia.app/Recipia";
+			};
+			name = Debug;
+		};
+		CCFCF47D275613A70073C644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSX47LJT9G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wishStar.RecipiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recipia.app/Recipia";
+			};
+			name = Release;
+		};
+		CCFCF47F275613A70073C644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSX47LJT9G;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wishStar.RecipiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Recipia;
+			};
+			name = Debug;
+		};
+		CCFCF480275613A70073C644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSX47LJT9G;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wishStar.RecipiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Recipia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCFCF449275613A50073C644 /* Build configuration list for PBXProject "Recipia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFCF476275613A70073C644 /* Debug */,
+				CCFCF477275613A70073C644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCFCF478275613A70073C644 /* Build configuration list for PBXNativeTarget "Recipia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFCF479275613A70073C644 /* Debug */,
+				CCFCF47A275613A70073C644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCFCF47B275613A70073C644 /* Build configuration list for PBXNativeTarget "RecipiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFCF47C275613A70073C644 /* Debug */,
+				CCFCF47D275613A70073C644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCFCF47E275613A70073C644 /* Build configuration list for PBXNativeTarget "RecipiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFCF47F275613A70073C644 /* Debug */,
+				CCFCF480275613A70073C644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCFCF446275613A50073C644 /* Project object */;
+}
