@@ -112,11 +112,14 @@ creations</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="Lug-sl-8jg">
-                                <rect key="frame" x="0.0" y="409" width="414" height="487"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pexels-nicole-michalou-6061393" translatesAutoresizingMaskIntoConstraints="NO" id="xjq-bi-AiC">
+                                <rect key="frame" x="-17" y="0.0" width="431" height="414"/>
+                            </imageView>
+                            <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="Lug-sl-8jg" userLabel="Sign in view">
+                                <rect key="frame" x="0.0" y="344" width="414" height="552"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="86j-KF-rna">
-                                        <rect key="frame" x="54" y="101.5" width="306" height="284.5"/>
+                                        <rect key="frame" x="54" y="113" width="306" height="284.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign In" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tr8-ql-14A">
                                                 <rect key="frame" x="0.0" y="0.0" width="306" height="60.5"/>
@@ -218,29 +221,40 @@ creations</string>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstItem="86j-KF-rna" firstAttribute="centerY" secondItem="Lug-sl-8jg" secondAttribute="centerY" id="4QA-RE-rdV"/>
+                                    <constraint firstItem="86j-KF-rna" firstAttribute="centerY" secondItem="Lug-sl-8jg" secondAttribute="centerY" constant="-20.75" id="4QA-RE-rdV"/>
+                                    <constraint firstItem="86j-KF-rna" firstAttribute="leading" secondItem="Lug-sl-8jg" secondAttribute="leading" constant="54" id="F1x-eW-eIT"/>
                                     <constraint firstItem="86j-KF-rna" firstAttribute="centerX" secondItem="Lug-sl-8jg" secondAttribute="centerX" id="vTD-bc-Qbf"/>
                                 </constraints>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pexels-nicole-michalou-6061393" translatesAutoresizingMaskIntoConstraints="NO" id="xjq-bi-AiC">
-                                <rect key="frame" x="-17" y="0.0" width="431" height="414"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="wN0-ux-rKg">
+                                <rect key="frame" x="42" y="56" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="nZH-YD-cAy"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Xdo-bW-psY"/>
                         <color key="backgroundColor" red="0.93725490570000003" green="0.53725492949999998" blue="0.231372565" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="Lug-sl-8jg" firstAttribute="top" secondItem="sRq-jk-6M3" secondAttribute="top" constant="344" id="6Sq-ny-DN5"/>
                             <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Lug-sl-8jg" secondAttribute="bottom" id="IFz-2y-TYe"/>
+                            <constraint firstAttribute="bottom" secondItem="Lug-sl-8jg" secondAttribute="bottom" id="KeY-aP-FFX"/>
+                            <constraint firstItem="Xdo-bW-psY" firstAttribute="trailing" secondItem="wN0-ux-rKg" secondAttribute="trailing" constant="312" id="Obg-to-M81"/>
+                            <constraint firstItem="wN0-ux-rKg" firstAttribute="top" secondItem="sRq-jk-6M3" secondAttribute="top" constant="56" id="Ph2-CC-bfR"/>
+                            <constraint firstItem="Xdo-bW-psY" firstAttribute="bottom" secondItem="xjq-bi-AiC" secondAttribute="bottom" constant="448" id="RDZ-pl-BoD"/>
                             <constraint firstItem="Lug-sl-8jg" firstAttribute="leading" secondItem="Xdo-bW-psY" secondAttribute="leading" id="a92-Yl-MeG"/>
-                            <constraint firstItem="Lug-sl-8jg" firstAttribute="top" secondItem="Xdo-bW-psY" secondAttribute="top" constant="365" id="chu-F8-iz1"/>
+                            <constraint firstItem="wN0-ux-rKg" firstAttribute="leading" secondItem="Xdo-bW-psY" secondAttribute="leading" constant="42" id="egU-fb-37d"/>
+                            <constraint firstItem="Lug-sl-8jg" firstAttribute="trailing" secondItem="xjq-bi-AiC" secondAttribute="trailing" id="em1-vF-ISS"/>
                             <constraint firstItem="Xdo-bW-psY" firstAttribute="trailing" secondItem="Lug-sl-8jg" secondAttribute="trailing" id="fZR-BJ-mmf"/>
                             <constraint firstAttribute="bottom" secondItem="Lug-sl-8jg" secondAttribute="bottom" id="iI8-ID-fma"/>
+                            <constraint firstItem="xjq-bi-AiC" firstAttribute="leading" secondItem="sRq-jk-6M3" secondAttribute="leadingMargin" constant="-37" id="lR9-M6-yzq"/>
+                            <constraint firstItem="xjq-bi-AiC" firstAttribute="top" secondItem="sRq-jk-6M3" secondAttribute="top" id="xb2-Po-Mac"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xKS-6b-mys" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="719" y="82"/>
+            <point key="canvasLocation" x="718.84057971014499" y="81.696428571428569"/>
         </scene>
         <!--Sign UP View-->
         <scene sceneID="ZJ3-r5-egM">
@@ -398,6 +412,7 @@ creations</string>
         <image name="ant-design_apple-filled" width="30" height="30"/>
         <image name="bx_bxl-facebook-circle" width="30" height="30"/>
         <image name="bx_bxl-google" width="30" height="30"/>
+        <image name="icon" width="70" height="70"/>
         <image name="pexels-nicole-michalou-6061393" width="4000" height="6000"/>
         <image name="pexels-yente-van-eynde-2403391" width="3840" height="5760"/>
         <systemColor name="systemBackgroundColor">
